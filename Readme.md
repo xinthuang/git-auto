@@ -1,6 +1,6 @@
 # git-auto+
 
-Add the below shell script on .bashrc/.zshrc, then type `gitsync` to sync your local repo once.
+Add the below shell script on `.bashrc/.zshrc`, then type `gitsync` to sync your local repo once.
 
 ```shell
 function gitsync() {

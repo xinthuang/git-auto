@@ -1,3 +1,13 @@
+# git-auto+
+
+在 `.bashrc/.zshrc` 文件中添加下述脚本, 终端中输入 `gitsync` 实现一次性同步本地仓库.
+
+```shell
+function gitsync() {
+	path/to/git-auto -d $PWD -o -p;
+}
+```
+
 # git-auto
 
 用于git自动提交和推送的简单命令行脚本

@@ -1,3 +1,13 @@
+# git-auto+
+
+Add the below shell script on .bashrc/.zshrc, then type `gitsync` to sync your local repo once.
+
+```shell
+function gitsync() {
+	path/to/git-auto -d $PWD -o -p;
+}
+```
+
 # git-auto
 
 A Simple Shell Script To Commit And Push Automatically
